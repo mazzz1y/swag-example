@@ -1,6 +1,6 @@
-## Gin API with [Swag](https://github.com/swaggo/swag)
+## Gin API for testing [Swag](https://github.com/swaggo/swag) documentation tool
 
-Start project:
+Start generating docs:
 
 ```
 docker-compose up
