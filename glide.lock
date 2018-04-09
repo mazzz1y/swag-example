@@ -1,0 +1,77 @@
+hash: bc6cb678a2276fdbe49974dba5ef3078a7e9df8def1558c357b060df526df305
+updated: 2018-04-09T07:48:42.6066977Z
+imports:
+- name: github.com/caarlos0/env
+  version: 7cd7992b3bc86f920394f8de92c13900da1a46b7
+- name: github.com/gin-contrib/cors
+  version: cf4846e6a636a76237a28d9286f163c132e841bc
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/contrib
+  version: 9b830a15f6abcf9e160f47ee01fc00691cc1981a
+  subpackages:
+  - jwt
+- name: github.com/gin-gonic/gin
+  version: 6d913fc343cfac80d656db5be67a0ffb1323ba0d
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/golang/protobuf
+  version: e09c5db296004fbe3f74490e84dcd62c3c5ddb1b
+  subpackages:
+  - proto
+- name: github.com/itsjamie/gin-cors
+  version: 97b4a9da79331dfa2b6d35f4cdd1e50f5148859c
+- name: github.com/itzamna314/gin-jwt
+  version: 9bc6f59021d43923583b8f1ee9de40e082e236b2
+  subpackages:
+  - jwtauth
+- name: github.com/jinzhu/gorm
+  version: 6ed508ec6a4ecb3531899a69cbc746ccf65a4166
+  subpackages:
+  - dialects/postgres
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
+- name: github.com/json-iterator/go
+  version: f89479f5c0d83b365504d632ab57390447bb406a
+- name: github.com/lib/pq
+  version: d34b9ff171c21ad295489235aec8b6626023cd04
+  subpackages:
+  - hstore
+  - oid
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 05fbef0ca5da472bbf96c9322b84a53edc03c9fd
+- name: github.com/swaggo/gin-swagger
+  version: 1510a6d46f01820f88b3a62d13353ccc8c6faa8e
+  subpackages:
+  - swaggerFiles
+- name: github.com/swaggo/swag
+  version: 544e460b1e39f44a29513154ece7d7765e3e614c
+- name: github.com/ugorji/go
+  version: f3cacc17c85ecb7f1b6a9e373ee85d1480919868
+  subpackages:
+  - codec
+- name: golang.org/x/crypto
+  version: b2aa35443fbc700ab74c586ae79b81c171851023
+  subpackages:
+  - bcrypt
+- name: golang.org/x/net
+  version: 61147c48b25b599e5b561d2e9c4f3e1ef489ca41
+  subpackages:
+  - context
+  - webdav
+  - webdav/internal/xml
+- name: golang.org/x/sys
+  version: 3b87a42e500a6dc65dae1a55d0b641295971163e
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []

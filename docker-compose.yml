@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: bash -c "glide up && swag init"
+    volumes:
+      - .:$GOPATH/src/swag-example
+    working_dir: $GOPATH/src/swag-example
+    ports:
+      - "8080:8080"

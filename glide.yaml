@@ -1,0 +1,27 @@
+package: github.com/dmirubtsov/swag-example
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/jinzhu/gorm
+  version: ^1.9.1
+  subpackages:
+  - dialects/postgres
+- package: github.com/caarlos0/env
+  version: ^3.2.0
+- package: github.com/swaggo/gin-swagger
+  subpackages:
+  - swaggerFiles
+- package: github.com/swaggo/swag
+  version: v.1.2.0
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
+- package: github.com/itzamna314/gin-jwt
+  subpackages:
+  - jwtauth
+- package: github.com/gin-gonic/contrib
+  subpackages:
+  - jwt
+- package: github.com/gin-contrib/cors
+  version: ^1.2.0
+- package: github.com/itsjamie/gin-cors
+  version: ^1.0.0
